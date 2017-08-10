@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./screen-A.js"],"names":[],"mappings":";;;;;;;;AAAc;;AAEd;AACA;AACA,C","file":"screenA.js","sourcesContent":["import { one } from './shared';\n\nexport default function() {\n  one();\n}\n\n\n//////////////////\n// WEBPACK FOOTER\n// ./screen-A.js\n// module id = 2\n// module chunks = 2"],"sourceRoot":""}

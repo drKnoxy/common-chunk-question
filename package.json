@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "yarn install && webpack --watch --progress"
+  },
   "dependencies": {
     "webpack": "^3.5.3"
   }

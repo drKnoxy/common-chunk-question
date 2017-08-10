@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./index.js"],"names":[],"mappings":";;;;;AAAA;AACA;AACA;;AAEA,S","file":"index.js","sourcesContent":["function doCode() {\n  return 'ok';\n}\n\ndoCode();\n\n\n//////////////////\n// WEBPACK FOOTER\n// ./index.js\n// module id = 1\n// module chunks = 3"],"sourceRoot":""}
