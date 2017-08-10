@@ -1,6 +1,16 @@
-webpackJsonp([0],{
+webpackJsonp([0],[
+/* 0 */,
+/* 1 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-/***/ 3:
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony default export */ __webpack_exports__["default"] = (function() {
+  console.log('lib function');
+});
+
+/***/ }),
+/* 2 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -20,6 +30,5 @@ function three() {
 }
 
 /***/ })
-
-});
+],[1]);
 //# sourceMappingURL=common.js.map

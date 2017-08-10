@@ -3,6 +3,7 @@ const webpack = require('webpack');
 module.exports = () => ({
   entry: {
     index: './index.js',
+    common: './lib.js'
   },
   output: {
     filename: '[name].js',

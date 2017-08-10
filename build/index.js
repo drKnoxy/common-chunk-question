@@ -4,8 +4,8 @@ webpackJsonp([3],[
 
 function doCode() {
   Promise.all([
-    Promise.all/* import() */([__webpack_require__.e(0), __webpack_require__.e(2)]).then(__webpack_require__.bind(null, 1)),
-    Promise.all/* import() */([__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.bind(null, 2))
+    Promise.all/* import() */([__webpack_require__.e(0), __webpack_require__.e(2)]).then(__webpack_require__.bind(null, 3)),
+    Promise.all/* import() */([__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.bind(null, 4))
   ]).then(function(l) { console.log('done', l)});
 }
 
