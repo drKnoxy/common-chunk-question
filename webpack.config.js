@@ -16,10 +16,19 @@ module.exports = () => ({
       name: 'common',
       minChunks: 2
     }),
-
+    
     new webpack.optimize.CommonsChunkPlugin({
       name: 'manifest',
       minChunks: Infinity, // Don't allow any additions to this bundle
+    }),
+
+    // Minification
+    new webpack.optimize.UglifyJsPlugin({
+      compressor: {
+        screw_ie8: true,
+        warnings: false
+      },
+      sourceMap: false
     }),
   ]
 });

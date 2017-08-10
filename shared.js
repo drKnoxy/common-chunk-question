@@ -1,11 +1,11 @@
 export function one() {
-  return 1;
+  return 'function one included';
 }
 
 export function two() {
-  return 1;
+  return 'function two included';
 }
 
 export function three() {
-  return 1;
+  return 'function three included';
 }
