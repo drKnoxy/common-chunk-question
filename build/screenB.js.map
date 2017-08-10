@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack:///./screen-B.js"],"names":[],"mappings":";;;;;;;;AAAc;;AAEd;AACA;AACA,C","file":"screenB.js","sourcesContent":["import { two } from './shared';\n\nexport default function() {\n  two();\n}\n\n\n//////////////////\n// WEBPACK FOOTER\n// ./screen-B.js\n// module id = 3\n// module chunks = 1"],"sourceRoot":""}

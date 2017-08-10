@@ -3,8 +3,6 @@ const webpack = require('webpack');
 module.exports = () => ({
   entry: {
     index: './index.js',
-    screenA: './screen-A.js',
-    screenB: './screen-B.js',
   },
   output: {
     filename: '[name].js',
