@@ -1,4 +1,4 @@
-import { one, two } from './shared';
+import { one } from './shared';
 
 export default function() {
   one();
