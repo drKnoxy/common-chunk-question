@@ -1,6 +1,6 @@
-webpackJsonp([0],[
-/* 0 */,
-/* 1 */
+webpackJsonp([3],{
+
+/***/ 2:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9,26 +9,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
   console.log('lib function');
 });
 
-/***/ }),
-/* 2 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (immutable) */ __webpack_exports__["a"] = one;
-/* harmony export (immutable) */ __webpack_exports__["b"] = two;
-/* unused harmony export three */
-function one() {
-  return 'function one included';
-}
-
-function two() {
-  return 'function two included';
-}
-
-function three() {
-  return 'function three included';
-}
-
 /***/ })
-],[1]);
+
+},[2]);
 //# sourceMappingURL=common.js.map
