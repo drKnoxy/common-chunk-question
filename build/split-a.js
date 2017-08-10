@@ -1,10 +1,17 @@
-webpackJsonp([1], {
-  2: function(e, t, c) {
-    'use strict';
-    Object.defineProperty(t, '__esModule', { value: !0 });
-    var n = c(0);
-    t.default = function() {
-      Object(n.a)();
-    };
-  }
+webpackJsonp([2],[
+/* 0 */,
+/* 1 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__shared__ = __webpack_require__(3);
+
+
+/* harmony default export */ __webpack_exports__["default"] = (function() {
+  Object(__WEBPACK_IMPORTED_MODULE_0__shared__["a" /* one */])();
 });
+
+/***/ })
+]);
+//# sourceMappingURL=split-a.js.map

@@ -1,29 +1,16 @@
-webpackJsonp(
-  [2],
-  [
-    function(n, e, t) {
-      'use strict';
-      function u() {
-        return 'function one included';
-      }
-      function c() {
-        return 'function two included';
-      }
-      function o() {
-        return 'function three included';
-      }
-      (e.a = u), (e.c = c), (e.b = o);
-    },
-    function(n, e, t) {
-      'use strict';
-      Object.defineProperty(e, '__esModule', { value: !0 });
-      var u = t(0);
-      !(function() {
-        Promise.all([t.e(1).then(t.bind(null, 2)), t.e(0).then(t.bind(null, 3))]).then(function(n) {
-          console.log('done', n);
-        }), Object(u.b)();
-      })();
-    }
-  ],
-  [1]
-);
+webpackJsonp([3],[
+/* 0 */
+/***/ (function(module, exports, __webpack_require__) {
+
+function doCode() {
+  Promise.all([
+    Promise.all/* import() */([__webpack_require__.e(0), __webpack_require__.e(2)]).then(__webpack_require__.bind(null, 1)),
+    Promise.all/* import() */([__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.bind(null, 2))
+  ]).then(function(l) { console.log('done', l)});
+}
+
+doCode();
+
+/***/ })
+],[0]);
+//# sourceMappingURL=index.js.map

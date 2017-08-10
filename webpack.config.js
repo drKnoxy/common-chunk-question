@@ -13,7 +13,8 @@ module.exports = () => ({
   plugins: [
     // Common modules
     new webpack.optimize.CommonsChunkPlugin({
-      name: 'common',
+      name: 'index',
+      async: 'common',
       minChunks: 2
     }),
     
@@ -23,12 +24,12 @@ module.exports = () => ({
     }),
 
     // Minification
-    new webpack.optimize.UglifyJsPlugin({
-      compressor: {
-        screw_ie8: true,
-        warnings: false
-      },
-      sourceMap: false
-    }),
+    // new webpack.optimize.UglifyJsPlugin({
+    //   compressor: {
+    //     screw_ie8: true,
+    //     warnings: false
+    //   },
+    //   sourceMap: false
+    // }),
   ]
 });
